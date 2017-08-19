@@ -19,6 +19,13 @@ synchronous to a system of 1 (up to 4) LIDAR components.
 Our apparatus synchronously integrates quad IMU subsystems with RTK-GPS to provide
 automotive grade point cloud data with 2cm - 5cm precision, even in GPS-challenged areas.
 
+* Camera Options
+    1. 4x105&deg; global shutter camera 1280x960 @20/30/40/50/60 frames per second
+    2. 6x90&deg; rolling shutter camera 1920x1080 @20/40 frames per second
+    3. 6x90&deg; rolling shutter camera 4K @20 frames per second
+* Lidar Options
+    1. stereo 16-lidar system
+
 Point cloud and camera data can be used for detecting street signs, potholes, lanes, crosswalk, traffic signals, 
 pedestrians, bicycles, etc.
 Combined with an inward-facing in-cabin camera, the client can correlate driver behavior with external conditions.
